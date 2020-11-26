@@ -14,7 +14,7 @@ class Paper {
   display(){
     
     imageMode(CENTER);
-    image(this.image, this.body.position.x, this.body.position.y, this.width, this.height);
+    image(this.image, this.body.position.x, this.body.position.y, this.width*1.5, this.height*1.5);
     
   }
 }
